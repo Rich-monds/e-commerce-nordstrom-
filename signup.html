@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <div id="header">
+        <body onclick="removeFileList()">
+            <div id="top">
+                <div>
+                    <p>
+                        <strong>Shipping outside of the U.S. or Canada?</strong>
+                        <a title="Learn About International Shipping" href="">Learn About International Shipping</a>
+                    </p>
+                    <button href=""><img style="background-color: red;" src="https://n.nordstrommedia.com/alias/GH.gif"><span>Ghana</span></button>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="nav-bar" onmouseenter="removeBar()">
+                <div id="inside-div">
+                    <div id="logo">
+                        <a href="index.html"><img src="https://n.nordstrommedia.com/alias/nordstrom-logo.svg"></a>
+                    </div>
+                 
+                    <div id="search" onmouseleave="removeSignBar()">
+                        <div id="one" onmouseenter="searchBar()">
+                            <div class="img" onmouseenter="removeSignBar()">
+                                <img src="images/search-icon.jpg"></img>
+                            </div>
+                            <input id="inputBox" maxlength="200" placeholder="What can we help you find?" type="search"
+                                value="">
+                            <div class="word">
+                                <p>Search</p>
+                            </div>
+                        </div>
+                        <div id="two" onmouseenter="removeBar()">
+                            <p onmouseenter="signBar()">Sign In</p>
+                        </div>
+                        <div id="signIN" onmouseleave="removeSignBar()">
+                            <ul>
+                                <li>
+                                    <a href="signin.html">Sign In</a>
+                                </li>
+                                <li>
+                                    <a href="signup.html">Create Account</a>
+                                </li>
+                                <li>
+                                    <a href=""><span>Your Account</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>Wish List</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>Looks</span></a>
+                                </li>
+                                <li>
+                                    <a href=""><span>Stores & Events</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div id="bag">
+                            <a href="./shopping_bag.html"><img class="bag-image" src="images/emptybag-icon.png"></img></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="navs">
+                <button id="red" class="navEle" onmouseover="FileList('Holiday Gifts')">Holiday Gifts</button>
+                <button class="navEle" onmouseover="FileList('Women')">Women</button>
+                <button class="navEle" onmouseover="FileList('Men')">Men</button>
+                <button class="navEle" onmouseover="FileList('Kids')">Kids</button>
+                <button class="navEle" onmouseover="FileList('Young Adult')">Young Adult</button>
+                <button class="navEle" onmouseover="FileList('Activewear')">Activewear</button>
+                <button class="navEle" onmouseover="FileList('Home')">Home</button>
+                <button class="navEle" onmouseover="FileList('Gifts')">Gifts</button>
+                <button class="navEle" onmouseover="FileList('Beauty')">Beauty</button>
+                <button class="navEle" onmouseover="FileList('Designer')">Designer</button>
+                <button class="navEle" onmouseover="FileList('Brands')">Brands</button>
+            </div>
+           
+        
+               
+        </body>
+    </div>
+    <div id="continer">
+    <div id="box">
+    <h1>Create Account</h1>
+    </div>
+    <p style="color: gray;">Enter your email to get started</p>
+    <div style="display: flex; margin-bottom: 0px;"><h3>Email</h3></div>
+    <input type="email" style="width: 95%; height:40px; margin-bottom: 20px;" id="mail">
+    <div style="margin-top: 30px; margin-bottom: 30px; color: gray;">By tapping Next, you agree to our Privacy Policy and Terms & Conditions.</div>
+<input id="next" type="button" value="Next" style="width: 95%; height:40px; color: white; background-color: black;cur ">
+</div>
+<div id="footer">
+    <div class="foot">
+        <div class="foot-column">
+           <ul>
+               <li><label class="head">Customer Service</label></li>
+               
+        </div>
+        <div class="foot-column">
+              <ul>
+                  <li><label class="head">
+                      Stores &amp; Events
+                  </label>
+                  </li>
+                  
+              </ul>
+        </div>
+        <div class="foot-column">
+          <ul>
+              <li><label class="head">Service</label></li>
+             
+          </ul>
+        </div>
+        <div class="foot-column">
+          <ul>
+              <li><label class="head">Nordstrom Cards</label></li>
+              
+          </ul>
+        </div>
+        <div class="foot-column">
+         <ul>
+             <li><label class="head">Nordstrom Inc</label></li>
+             
+         </ul>
+        </div>
+      
+        <div id="foot-col" class="foot-column">
+            <ul>
+                <div style="display: flex;"><img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/mobile.svg" alt="facebook" style="width:18px;margin-right:5px;"/>Get our apps</div>
+                <div style="display:flex;gap:15px;margin-top: 20px;">
+                    <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/insta.svg" alt="instagram" style="width:24px;"/>
+                        <img src="https://raw.githubusercontent.com/vibrantachintya/nordstrom/main/images/pin.svg" alt="pinterest" style="width:24px;"/>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6tFaM-eTMK02qh0x0VsBa-eFzurARq7qB1-aXOKSQ8w&s" alt="twitter" style="width:24px;"/>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqIS2JOJG6MMTQUuXP3hSs_VA3GRRVK4ff_36Uzdooag&s" alt="facebook" style="width:24px;"/>
+                </div>
+            <ul>
+        </div>
+    </div>
+    <div class="foot-second">
+       
+    </div>
+</div>
+</body>
+</html>
+<script src="./js/signup.js"></script>
